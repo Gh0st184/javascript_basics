@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn {
+            font-size: 30px;
+        }
+
+        .txt {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <button>Кнопка</button>
+    <textarea></textarea>
+
+    <!-- Задание. Сделайте с помощью javascript размер шрифта в кнопке 30px,
+    а в textarea сделайте зеленый фон. Используйте свойство style у каждого
+    из элементов. -->
+
+    <script>
+        "use strict";
+        let btn = document.querySelector('button');
+        let txt = document.querySelector('textarea');
+        btn.classList.add('btn');
+        txt.classList.add('txt');
+    </script>
+</body>
+
+</html>
